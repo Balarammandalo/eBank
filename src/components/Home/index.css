@@ -1,0 +1,41 @@
+.home-container {
+  background-color: #183b56;
+  height: 100%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  justify-content: space-between;
+}
+.logo-image {
+  height: 70px;
+}
+
+.logoutButon {
+  background-color: transparent;
+  border: 1px solid white;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  height: 30px;
+  width: 90px;
+}
+.cardDetails-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cardDetails-container {
+}
+.flexHead {
+  font-size: 30px;
+  font-weight: bold;
+}
+.card-img {
+  height: 55vh;
+  margin-bottom: 30%;
+}

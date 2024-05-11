@@ -1,0 +1,83 @@
+.login-form-container {
+  background-color: #152850;
+  height: 100vh;
+  padding: 80px;
+}
+
+.loginApplication {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  background-color: white;
+  width: 60vw;
+  border-radius: 12px;
+}
+
+.login-form-image {
+  background-color: #e0eefe;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.loginImage {
+  height: 60vh;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+.form-page {
+  margin-top: 0px;
+}
+
+.welcomeHead {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.userLabel {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.userIdInput {
+  width: 90%;
+  height: 30px;
+  outline: none;
+  padding-left: 5px;
+  border: 1px solid #183b56;
+}
+
+.pinLabel {
+  font-size: 20px;
+  font-weight: 500;
+}
+.pinInput {
+  width: 90%;
+  outline: none;
+  border: 1px solid #183b56;
+  padding-left: 5px;
+  height: 30px;
+}
+
+.loginButon {
+  background-color: #1565d8;
+  width: 90%;
+  height: 30px;
+  margin-top: 15px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  outline: none;
+}
+
+.errorMessage {
+  font-size: 15px;
+  color: #ff0b37;
+  text-align: center;
+  margin-top: 0px;
+}
